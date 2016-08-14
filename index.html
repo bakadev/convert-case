@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Convert Case</title>
+    <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+    <link href="convert.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Convert Case</h1>
+      <p>Enter your copy content to convert the case to either Sentence, Title, Upper or Lower.</p>
+      <form>
+        <textarea id="input">ENTER text TO BE converted.</textarea>
+        <div class="btn-holder">
+          <input type="button" value="Sentence Case" class="btn" id="toSentenceCase" />
+          <input type="button" value="Uppercase" class="btn" id="toUpperCase" />
+          <input type="button" value="Lowercase" class="btn" id="toLowerCase" />
+          <input type="button" value="Title Case" class="btn" id="toTitleCase" />
+        </div>
+        <textarea id="output" disabled="disabled"></textarea>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="convert.js"></script>
+  </body>
+</html>
